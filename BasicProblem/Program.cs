@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter How Many Times You Have to Flip a Coin : ");
-            int C = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Index of 2 : ");
+            int Power = Convert.ToInt32(Console.ReadLine());
 
-            FlipCoin coin = new FlipCoin();
-            coin.getPercentageOfFlipCion(C);
+            Power power = new Power();
+            power.getPowerOf2(Power);
         }
     }
 }
