@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicProblem
 {
-    internal class FlipCoin
+    public class FlipCoin
     {
         public void getPercentageOfFlipCion(int Times)
         {
