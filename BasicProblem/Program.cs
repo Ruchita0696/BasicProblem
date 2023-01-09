@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter How Many Times You Have to Flip a Coin : ");
-            int C = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Number : ");
+            int H = Convert.ToInt32(Console.ReadLine());
 
-            FlipCoin coin = new FlipCoin();
-            coin.getPercentageOfFlipCion(C);
+            HarmonicNumber Harmonic = new HarmonicNumber();
+            Harmonic.harmonicSeries(H);
         }
     }
 }
