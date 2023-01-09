@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Console.WriteLine("Enter the Index of 2 : ");
             int Power = Convert.ToInt32(Console.ReadLine());
 
@@ -17,6 +18,12 @@
             Factors factor = new Factors();
             factor.PrimeFactors(F);
 >>>>>>> UC5.Factors
+=======
+            Console.WriteLine("Enter the Year to Check Whether Leap Year or Not : ");
+            int yeartoread = Convert.ToInt32(Console.ReadLine());
+            LeapYear Year = new LeapYear();
+            Year.toCheckLeapYear(yeartoread);
+>>>>>>> UC2.LeapYear
         }
     }
 }
