@@ -6,6 +6,7 @@
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Console.WriteLine("Enter the Index of 2 : ");
             int Power = Convert.ToInt32(Console.ReadLine());
 
@@ -24,6 +25,13 @@
             LeapYear Year = new LeapYear();
             Year.toCheckLeapYear(yeartoread);
 >>>>>>> UC2.LeapYear
+=======
+            Console.WriteLine("Enter Number : ");
+            int H = Convert.ToInt32(Console.ReadLine());
+
+            HarmonicNumber Harmonic = new HarmonicNumber();
+            Harmonic.harmonicSeries(H);
+>>>>>>> UC4.HarmonicNumber
         }
     }
 }
