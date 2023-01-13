@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number 1 : ");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Number 2 : ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Divident : ");
+            int Di = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Divisor : ");
+            int Dv = Convert.ToInt32(Console.ReadLine());
 
-            Swapnumber swap = new Swapnumber();
-            swap.SwappingOfTwoNumbers(num1, num2);
+            QuotientReminder Qr = new QuotientReminder();
+            Qr.Calculation(Di, Dv);
         }
     }
 }
